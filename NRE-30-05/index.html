@@ -56,7 +56,7 @@
     </section>
 
     <!-- Seção sobre as casas de hogwarts -->
-     <section class="casas" id="casas">
+    <section class="casas" id="casas">
         <h2 class="casas-titulo">
             As casas de hogwarts
         </h2>
@@ -64,21 +64,100 @@
             <!-- Card da grifinória -->
             <div class="casa-card" id="grifinoria">
                 <img src="./assets/Imagens/logo-grifinoria.png" alt="Grifinória" class="casa-imagem">
-             </div>
-             <!-- Card da Sonserina -->
-             <div>
-                
-             </div>
-             <!-- Card da corvinal -->
-             <div>
-                
-             </div>
-             <!-- Card da lufa-lufa -->
-             <div>
-                
-             </div>
+                <h3>Grifinória</h3>
+                <p>Valoriza coragem, ousadia e determinaçãp</p>
+            </div>
+            <!-- Card da Sonserina -->
+            <div>
+                <img src="./assets/Imagens/logo_sonserina.png" alt="Sonserina" class="casa-imagem">
+                <h3>Sonserina</h3>
+                <p>Destaca ambição, astúcia e liderança</p>
+            </div>
+            <!-- Card da corvinal -->
+            <div>
+                <img src="./assets/Imagens/logo-corvinal.png" alt="Corvinal" class="casa-imagem">
+                <h3>Corvinal</h3>
+                <p>Valoriza a inteligência, criatividade e aprendizado</p>
+            </div>
+            <!-- Card da lufa-lufa -->
+            <div>
+                <img src="./assets/Imagens/logo-lufa-lufa.png" alt="Lufa-lufa" class="casa-imagem">
+                <h3>Lufa-Lufa</h3>
+                <p>Destaca lealdade, paciência e honestidade</p>
+            </div>
         </div>
-     </section>
+    </section>
+    <!-- Seção sobre os estudantes de hogwarts -->
+    <section class="estudantes" id="estudantes">
+        <h2 class="estudante-titulo">
+            Quem são os estudandes de hogwarts?
+        </h2>
+        <div class="estudante-todos">
+            <!-- Container do harry potter -->
+            <div class="estudante-container">
+                <img class="imagem-estudante" src="./assets/Imagens/harry_potter_alterado_oficial.png"
+                    alt="Harry potter" data-gif="gif_harry.gif">
+                <h3 class="estudante-nome">Harry Potter</h3>
+                <img class="estudante-casa" src="./assets/Imagens/logo-grifinoria.png" alt="Grifinória">
+                <div class="gif-card">
+                    <img class="gif-imagem" src="./assets/Gifs/gif_harry.gif" alt="Gif do potter">
+                </div>
+            </div>
+            <!-- Container do cedrico -->
+            <div class="estudante-container">
+                <img class="imagem-estudante" src="./assets/Imagens/cedric_diggory_novo_6.png" alt="Cedrico diggory"
+                    data-gif="gif_cedric.gif">
+                <h3 class="estudante-nome">Cedrico Diggory</h3>
+                <img class="estudante-casa" src="./assets/Imagens/logo-lufa-lufa.png" alt="Lufa-Lufa">
+                <div class="gif-card">
+                    <img class="gif-imagem" src="./assets/Gifs/gif_cedric.gif" alt="Gif do Cedrico">
+                </div>
+            </div>
+            <!-- Container do Draco Malfoy -->
+            <div class="estudante-container">
+                <img class="imagem-estudante" src="./assets/Imagens/draco-malfoy_alterado.png" alt="Draco Malfoy"
+                    data-gif="gif_draco.gif">
+                <h3 class="estudante-nome">Draco Malfoy</h3>
+                <img class="estudante-casa" src="./assets/Imagens/logo_sonserina.png" alt="Sonserina">
+                <div class="gif-card">
+                    <img class="gif-imagem" src="./assets/Gifs/gif_draco.gif" alt="Gif do draco">
+                </div>
+            </div>
+            <!-- Container da Luna Lovegood -->
+            <div class="estudante-container">
+                <img class="imagem-estudante" src="./assets/Imagens/foto_luna_alterada.png" alt="Luna Lovegood"
+                    data-gif="gif_luna.gif">
+                <h3 class="estudante-nome">Luna Lovegood</h3>
+                <img class="estudante-casa" src="./assets/Imagens/logo-corvinal.png" alt="Grifinória">
+                <div class="gif-card">
+                    <img class="gif-imagem" src="./assets/Gifs/gif_luna.gif" alt="Gif da Luna">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé da página -->
+    <footer class="rodape">
+        <img class="imagem-rodape" 
+        src="./assets/Imagens/alura_logo.png" alt="Logo da alura">
+        <div>
+            <img src="./assets/Imagens/whatsapp (2).png" 
+            alt="Imagem do ZAP ZAP">
+            <p class="rodape-texto"> 
+                Fale conosco (11) 97766-0111
+            </p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            const estudantes = document.querySelectorAll('.estudante-container');
+
+            /* Para cada estudante, configura os eventos de mouse */
+            estudantes.forEach(estudante =>{
+                
+            });
+        });
+    </script>
 </body>
 
 </html>
